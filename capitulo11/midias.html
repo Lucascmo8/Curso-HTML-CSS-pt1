@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+    <link rel="shortcut icon" href="../Capitulo10/wolf.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!--Imagem dinâmica-->
+    <picture>
+        <source media="(min-width: 950px)" srcset="imagens/foto_G.jpg" type="image/jpg">
+        <source media="(min-width: 650px)" srcset="imagens/foto_M.jpg" type="image/jpg">
+        <img src="imagens/foto_P.jpg" alt="foto Dinâmica">
+    </picture>
+
+    <!--Audio-->
+    <p>Enough - NEFFEX </p>
+    <audio preload="metadata" controls loop>
+        <source src="musicas/Enough - NEFFEX.mp3" type="audio/mpeg">
+        <p>Erro ao carregar o Áudio</p>
+    </audio>
+
+    <!--Video-->
+    <!--video interno-->
+    <video controls width="500px" loop>
+        <source src="Videos/video.mp4" type="video/mp4">
+        <p>Não foi posível carregar o video</p>
+    </video>
+    <!--video externo-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Gh7yJ4sj8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</html>

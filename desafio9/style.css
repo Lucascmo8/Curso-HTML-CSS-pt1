@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to top, black,rgb(5, 69, 5));
+    text-align: center;
+    text-shadow: 2px 2px 5px #3cee51;
+    background-attachment: fixed;
+    
+}
+section#video {
+    height: 320px;
+    width: 570px;
+    border-radius: 20px;
+    padding: 12px;
+    background-image: linear-gradient(to top, #4DA167 , #4E6E5D);
+    box-shadow: 8px 8px 8px #3cee51;
+    margin: auto;
+}
+section#lista {
+    background-image: linear-gradient(to right, #3BC14A, #CFCFCF);
+    width: 150px;
+    margin: auto;
+    border-radius: 5px;
+    color: #4D5057;
+    box-shadow: 3px 3px 4px #3cee51;
+
+}
+a { color: #5b6979;
+text-decoration: none;
+}
+* {
+    font-family:'Times New Roman', Times, serif ;
+}
